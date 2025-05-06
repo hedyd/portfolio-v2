@@ -1,0 +1,27 @@
+{
+  "title": "MIT and FIT Remote Learning Hub",
+  "job": "Cynda Media Lab",
+  "year": 2022,
+  "image": "mitandfit2.jpg",
+  "imageHeight": 562,
+  "video": "https://player.vimeo.com/video/501330026?title=0&byline=0&portrait=0",
+  "summary": "An online learning platform used by teachers to create syllabuses and students to track coursework.",
+  "responsibilities": [
+    "Set up user authentication. Users with a teacher role could edit and create lesson units, while users with a student role would have a read-only view of courses they were enrolled in.",
+    "Built front-end components for the user dashboard, course edit pages, and a subsection of the site with a dynamic workshop schedule."
+  ],
+  "features": [
+    "Auth0 login with role-based access control",
+    "Custom CMS for content editing",
+    "Storybook integration for front-end prototyping"
+  ],
+  "skills": [
+    "React",
+    "SCSS",
+    "TypeScript",
+    "Node.js",
+    "MongoDB",
+    "Storybook",
+    "Git"
+  ]
+}

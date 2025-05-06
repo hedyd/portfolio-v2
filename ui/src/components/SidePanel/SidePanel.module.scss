@@ -1,0 +1,76 @@
+@use "../../styles/variables.scss" as v;
+
+.sidePanel {
+  display: flex;
+  flex-direction: column;
+  gap: v.$gap;
+  padding: v.$gap;
+  background-color: v.$color-black;
+  color: v.$color-off-white;
+  z-index: 2;
+
+  @media only screen and (min-width: v.$mobile) {
+    padding: v.$gap 0 0 v.$gap;
+    display: grid;
+    grid-template:
+      "intro intro"
+      "chat nav";
+    grid-template-rows: auto 1fr;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+  }
+}
+
+.intro {
+  grid-area: intro;
+  display: flex;
+  align-items: center;
+  gap: v.$gap;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: v.$gap-half;
+}
+
+.name {
+  font-size: 36px;
+  font-family: v.$font-family-display;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.chat {
+  grid-area: chat;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #fff;
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+}
+
+.button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+}

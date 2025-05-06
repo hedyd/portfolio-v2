@@ -1,0 +1,61 @@
+@use "../../styles/variables.scss" as v;
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: v.$gap;
+  min-height: 100vh;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: v.$gap;
+  padding: 0 v.$gap;
+
+  @media only screen and (min-width: v.$desktop) {
+    padding: 0;
+    display: grid;
+    grid-template: "summary skills";
+  }
+}
+
+.summary {
+  grid-area: summary;
+  line-height: v.$lh;
+
+  p {
+    margin-bottom: v.$gap;
+  }
+}
+
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills {
+  grid-area: skills;
+  display: flex;
+  flex-direction: column;
+  gap: v.$gap;
+}
+
+.skill {
+  line-height: v.$lh;
+}
+
+.type {
+  font-weight: 500;
+  margin-bottom: v.$gap-fourth;
+}
+
+.links {
+  display: flex;
+  gap: v.$gap;
+}

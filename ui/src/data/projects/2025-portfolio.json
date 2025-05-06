@@ -1,0 +1,27 @@
+{
+  "title": "Portfolio Website",
+  "job": "Personal",
+  "year": 2025,
+  "image": "dpc.png",
+  "imageHeight": 541,
+  "video": "",
+  "summary": "What you're currently looking at!",
+  "responsibilities": [
+    "Set up a chat bot that answers questions about my resume.",
+    "Created UI using Astro."
+  ],
+  "features": [
+    "AI powered chat assistant",
+    "Astro content collections",
+    "AWS CDK deployment"
+  ],
+  "skills": [
+    "Astro",
+    "AWS Bedrock",
+    "AWS Lambda",
+    "AWS API Gateway",
+    "AWS CDK",
+    "React",
+    "Git"
+  ]
+}

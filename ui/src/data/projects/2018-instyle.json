@@ -1,0 +1,37 @@
+{
+  "title": "InStyle.com",
+  "job": "Meredith",
+  "year": 2018,
+  "image": "instyle.jpg",
+  "imageHeight": 560,
+  "video": "",
+  "summary": "Website for a celebrity fashion magazine. The site contains landing pages for beauty product shopping, celebrity outfit galleries, and general fashion news.",
+  "responsibilities": [
+    "Key developer for the Best Beauty Buys section of the website. Wrote a custom Drupal 7 module that generated the API used by the front end.",
+    "Built the Best Beauty Buys front-end template with a Handlebars/Node.js setup.",
+    "Worked on several performance and security improvement initiatives, including critical CSS, lazy loading, and an HTTPS migration.",
+    "Built a regression test suite. Testing included tasks such as typing text into a search field, checking results, and ensuring that pagination worked as expected."
+  ],
+  "features": [
+    "Product listing page with filtering, pagination, featured products, and load more",
+    "Lazy loading blog articles on scroll",
+    "Critical CSS with Penthouse",
+    "Regression test suite with Nightmare and Mocha/Chai"
+  ],
+  "skills": [
+    "Handlebars",
+    "SCSS",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "Drupal 7",
+    "PHP",
+    "SQL",
+    "Nightmare",
+    "Mocha/Chai",
+    "Jenkins",
+    "CircleCI",
+    "Grunt",
+    "Git"
+  ]
+}

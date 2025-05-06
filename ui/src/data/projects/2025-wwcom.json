@@ -1,0 +1,45 @@
+{
+  "title": "WeightWatchers.com",
+  "job": "WW International",
+  "year": 2025,
+  "image": "ww.png",
+  "imageHeight": 510,
+  "video": "",
+  "summary": "Website for the WeightWatchers (WW) App. Offers information about how to sign up for a WW subscription, as well as free recipes and articles on wellness.",
+  "responsibilities": [
+    "Core developer responsible for the moving the old Drupal 7 website off Acquia Cloud onto WW's internal AWS infrastructure.",
+    "Led the conversion of legacy React class components into functional components with TypeScript.",
+    "Set up CI/CD pipelines for linting, testing, and Docker deployments with Github Actions."
+  ],
+  "features": [
+    "React frontend with GQL API layer and Drupal backend",
+    "Drupal CMS for articles and custom pages",
+    "Blogs, recipes, and taxonomy driven category pages for SEO",
+    "Storybook integration with front-end components",
+    "A/B testing with Fastly Compute"
+  ],
+  "skills": [
+    "React",
+    "Next.js",
+    "SCSS",
+    "JavaScript",
+    "TypeScript",
+    "Apollo GraphQL",
+    "Node.js",
+    "Hapi",
+    "Drupal 7/8/9/10",
+    "PHP",
+    "SQL",
+    "Storybook",
+    "Memcached",
+    "Redis",
+    "Fastly",
+    "Docker",
+    "Kubernetes",
+    "Jest",
+    "Playwright",
+    "Webpack",
+    "Github Actions",
+    "Git"
+  ]
+}

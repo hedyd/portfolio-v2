@@ -1,0 +1,16 @@
+@use "sass:math";
+
+$mobile: 960px;
+$desktop: 1280px;
+
+$font-family: "Roboto Mono", monospace;
+$font-family-display: "Gugi", sans-serif;
+
+$gap: 16px;
+$gap-half: math.div($gap, 2);
+$gap-fourth: math.div($gap, 4);
+
+$lh: 1.2;
+
+$color-black: #0d0a07;
+$color-off-white: #f4ede1;

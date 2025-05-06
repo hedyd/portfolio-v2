@@ -1,0 +1,28 @@
+@use "../../styles/variables.scss" as v;
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px - 48px);
+  justify-content: space-between;
+}
+
+.disclaimer {
+  font-size: 12px;
+  line-height: v.$lh;
+}
+
+.controls {
+  display: flex;
+  margin: v.$gap 0;
+}
+
+.input {
+  width: 100%;
+}
+
+.output {
+  line-height: v.$lh;
+  height: 100%;
+  overflow-y: auto;
+}

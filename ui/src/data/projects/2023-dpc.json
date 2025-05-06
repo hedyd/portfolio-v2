@@ -1,0 +1,29 @@
+{
+  "title": "Design Portfolio Center",
+  "job": "Cynda Media Lab",
+  "year": 2023,
+  "image": "dpc.png",
+  "imageHeight": 541,
+  "video": "",
+  "summary": "Provides mentoring for aspiring designers or UI/UX professionals looking to improve their skills and web portfolio.",
+  "responsibilities": [
+    "Mentor for designers enrolled in the program, providing tutoring on low-code portfolio options like Webflow and Framer.",
+    "Built several front-end components using lit-html and Web Components.",
+    "Set up the foundation for creating custom Wordpress Gutenberg blocks for lit-html components, allowing content editors to add, preview, and edit components on pages."
+  ],
+  "features": [
+    "Headless Wordpress with lit-html front-end",
+    "Custom Gutenberg blocks for content editing",
+    "Calendly integration for scheduling meetings"
+  ],
+  "skills": [
+    "lit-html",
+    "Web Components",
+    "Wordpress",
+    "Webflow",
+    "Framer",
+    "SCSS",
+    "Storybook",
+    "Git"
+  ]
+}

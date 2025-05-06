@@ -1,0 +1,15 @@
+{
+  "title": "Tera Cloud Memory Extension",
+  "job": "Cynda Media Lab",
+  "year": 2016,
+  "image": "tera.jpg",
+  "imageHeight": 521,
+  "video": "https://player.vimeo.com/video/173573310?title=0&byline=0&portrait=0",
+  "summary": "Multilingual marketing website for HB Mobile's Tera, a custom Android phone with additional cloud storage capacity of 1TB.",
+  "responsibilities": [
+    "Set up front end and utilized Gulp for tasks such as SASS compilation, JS minification, Babel, and auto-prefixing.",
+    "Set up components with the ability to get flat data from multiple sources by path for multilingual support."
+  ],
+  "features": ["I18n support with toggle from Chinese to English"],
+  "skills": ["HTML", "SCSS", "JavaScript", "Node.js", "Express", "Gulp", "Git"]
+}

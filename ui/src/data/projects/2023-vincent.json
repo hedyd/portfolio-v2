@@ -1,0 +1,29 @@
+{
+  "title": "Vincent Di Fate",
+  "job": "Cynda Media Lab",
+  "year": 2023,
+  "image": "vincent.png",
+  "imageHeight": 655,
+  "video": "",
+  "summary": "Portfolio website for Vincent Di Fate, an illustrator working in the specialties of science fiction, fantasy, and aerospace art.",
+  "responsibilities": [
+    "Developed Angular components for gallery and grid views for all artwork.",
+    "Built the front-end for a custom CMS, allowing the client to upload new art pieces and edit their project and biography pages.",
+    "Created a custom shopify theme for the Shop part of the website."
+  ],
+  "features": [
+    "Shop with custom shopify theme matching the main site",
+    "Custom CMS for content editing with Angular Material",
+    "Contact form for each piece of artwork"
+  ],
+  "skills": [
+    "Shopify",
+    "Angular 4",
+    "Angular Material",
+    "SCSS",
+    "TypeScript",
+    "Node.js",
+    "MongoDB",
+    "Git"
+  ]
+}

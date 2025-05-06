@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+import SidePanel from "../SidePanel/SidePanel.astro";
+import Project from "../Project/Project.astro";
+import styles from "./Main.module.scss";
+import About from "../About/About.astro";
+
+let projects = await getCollection("projects");
+projects = projects.sort((a, b) => b.data.year - a.data.year);
+const about = await getCollection("about");
+---
+
+<SidePanel />
+<section class={styles.projects}>
+  <div class={styles.inner}>
+    {about.map((item) => <About about={item} />)}
+    {projects.map((project) => <Project project={project} />)}
+  </div>
+</section>
+
+<script src="./Main.ts"></script>

@@ -1,0 +1,22 @@
+{
+  "title": "Senate Intelligence Committee",
+  "job": "Lockheed Martin Desktop Solutions, Inc.",
+  "year": 2011,
+  "image": "senate.png",
+  "imageHeight": 631,
+  "video": "",
+  "summary": "Website for the Senate Intelligence Committee. The site serves as a repository for the committee's publications and bills. It also contains the committee's hearing schedule and a live stream of their public hearings.",
+  "responsibilities": [
+    "Back-end developer. Set up a vanilla Drupal 7 site as the base.",
+    "Worked on several front-end features, including extending the Calendar module to display tooltips for events on hover.",
+    "Responsible for monitoring Drupal core security advisories and patching the site, usually within 24 hours.",
+    "Held training sessions for editors and responded directly to maintenance requests."
+  ],
+  "features": [
+    "Calendar with dates for open and closed hearings",
+    "Paginated list of legislation using Panels/Views",
+    "Keyword and category search of content",
+    "Akamai caching"
+  ],
+  "skills": ["Drupal 7", "CSS", "JavaScript", "PHP", "SQL", "Jenkins", "Git"]
+}
